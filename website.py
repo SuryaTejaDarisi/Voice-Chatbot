@@ -20,7 +20,6 @@ st.title("Voice Chatbot for Creative Cartels")
 
 # Speech to Text
 st.write("How can I help you today ?")
-st.write("Click on the Mic to ask something.")
 spoken_text = speech_to_text(language='en', use_container_width=True, key=f"stt_{len(st.session_state.history)}")
 
 if spoken_text:
