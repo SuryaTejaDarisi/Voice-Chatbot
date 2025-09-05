@@ -1,0 +1,10 @@
+google-generativeai
+SpeechRecognition
+pyttsx3
+pyaudio
+tqdm
+streamlit
+streamlit-mic-recorder
+gtts
+python-dotenv
+markdown
